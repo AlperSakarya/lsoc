@@ -1,5 +1,7 @@
+#!/usr/bin/python
 import os
 import sys
+
 
 def myls():
     if not len(sys.argv) >1:
@@ -11,5 +13,3 @@ def myls():
         os.system(myls)
 
 myls()
-
-__author__ = 'Alper Sakarya'
