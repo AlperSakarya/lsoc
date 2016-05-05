@@ -3,7 +3,7 @@ import os
 import sys
 
 
-def myls():
+def mylscmd():
     if not len(sys.argv) >1:
         myls = 'stat -c "%a %n" *'
         os.system(myls)
@@ -12,4 +12,4 @@ def myls():
         myls = 'stat -c "%a %n" {0}'.format(myFile)
         os.system(myls)
 
-myls()
+mylscmd()
