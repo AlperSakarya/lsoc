@@ -1,6 +1,29 @@
-# myls<br>
-A small Pyhton package that lets you view file and directory access rights with octal<p>
-Like this:<br>
-~/P/myls ❯❯❯ stat -c "%a %n" *<br>
-775 myls.py<br>
-664 README.md<br>
+### myls ###
+A lite Pyhton package that lets you view file and directory access rights with octal.
+
+Equivilant to typing:
+	 stat -c "%a %n" *
+
+
+Like this:
+ alper  ~   myls
+
+755 Desktop
+755 Documents
+755 Downloads
+755 Music
+600 myfile.tar.gz
+755 Pictures
+755 Public
+400 Python.pem
+775 Steam
+
+alper  ~  myls /usr/bin/sudo
+4755 /usr/bin/sudo
+4755 /usr/bin/sudo
+
+
+
+awesome❯❯❯ stat -c "%a %n" *
+
+
