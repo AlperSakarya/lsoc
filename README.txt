@@ -1,10 +1,10 @@
-### myls ###
+### lsoc / LS OCTAL ###
 A lite Pyhton package that lets you view file and directory access rights with octal.
 
 Equivilant to typing: stat -c "%a %n" *
 
 Like this:
- alper >~> myls
+ alper >~> lsoc
 755 Desktop
 755 Documents
 755 Downloads
@@ -15,7 +15,7 @@ Like this:
 400 Python.pem
 775 Steam
 
- alper >~> myls /usr/bin/sudo
+ alper >~> lsoc /usr/bin/sudo
 4755 /usr/bin/sudo
 4755 /usr/bin/sudo
 
