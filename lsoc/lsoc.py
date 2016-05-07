@@ -11,5 +11,3 @@ def lsoccmd():
         myFile = str(sys.argv[1])
         lsoc = 'stat -c "%a %n" {0}'.format(myFile)
         os.system(lsoc)
-
-lsoccmd()
