@@ -16,6 +16,21 @@ pip install lsoc
 pipx install lsoc
 ```
 
+### Debian/Ubuntu .deb package
+Download and install the .deb package directly:
+
+```bash
+# Using wget
+wget https://github.com/AlperSakarya/lsoc/releases/download/v0.1.4/lsoc_0.1.4-1_all.deb
+sudo dpkg -i lsoc_0.1.4-1_all.deb
+
+# Using curl
+curl -L -O https://github.com/AlperSakarya/lsoc/releases/download/v0.1.4/lsoc_0.1.4-1_all.deb
+sudo dpkg -i lsoc_0.1.4-1_all.deb
+```
+
+Works on Ubuntu, Debian, and other Debian-based distributions.
+
 ### From source
 ```bash
 git clone https://github.com/AlperSakarya/lsoc.git
