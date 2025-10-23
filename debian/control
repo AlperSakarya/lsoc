@@ -1,0 +1,19 @@
+Source: lsoc
+Section: utils
+Priority: optional
+Maintainer: Alper Sakarya <alpersakarya@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-setuptools, python3-all
+Standards-Version: 4.6.0
+Homepage: https://github.com/AlperSakarya/lsoc
+Vcs-Git: https://github.com/AlperSakarya/lsoc.git
+Vcs-Browser: https://github.com/AlperSakarya/lsoc
+
+Package: lsoc
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: View file and directory access rights with octal notation
+ A lite Python package that lets you view file and directory access rights
+ with octal notation. Equivalent to typing: stat -c "%a %n" *
+ .
+ This tool provides a simple way to quickly see file permissions in octal
+ format for files and directories.

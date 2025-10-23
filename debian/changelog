@@ -1,0 +1,8 @@
+lsoc (0.1.4-1) unstable; urgency=medium
+
+  * Initial Debian package release
+  * Fixed duplicate output issue
+  * Added proper installation instructions
+  * Compatible with Ubuntu 24+ and modern Linux distributions
+
+ -- Alper Sakarya <alpersakarya@gmail.com>  Wed, 23 Oct 2024 01:07:00 +0000
