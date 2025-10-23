@@ -2,7 +2,7 @@ from setuptools import setup
 setup(
     name='lsoc',
     packages=['lsoc'],
-    version='0.1.2',
+    version='0.1.3',
     description='Lite Python package that lets you view file and directory access rights with octal',
     author='Alper Sakarya',
     author_email='alpersakarya@gmail.com',

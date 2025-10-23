@@ -11,5 +11,5 @@ def lsoccmd():
 
     os.system(lsoc)
 
-# Call the function
-lsoccmd()
+if __name__ == "__main__":
+    lsoccmd()
